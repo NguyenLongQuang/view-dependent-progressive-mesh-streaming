@@ -46,4 +46,4 @@ Những thứ cần tải:
 - If you wish to change any build options run 'ccmake .'
 
 ### Build code cho bài báo
-Mọi người chỉ cần chạy `make` trong file view-dependent-progressive-mesh-streaming-fixed là được 
+Mọi người chỉ cần chạy `make` trong file view-dependent-progressive-mesh-streaming-fixed là được ạ. 
