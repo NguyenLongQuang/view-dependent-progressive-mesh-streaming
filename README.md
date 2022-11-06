@@ -20,7 +20,7 @@ Những thứ cần tải:
 	libOpenMeshCore.so.2.0 (libc6,x86-64) => /usr/local/lib/OpenMesh/libOpenMeshCore.so.2.0
 	libOpenMeshCore.so (libc6,x86-64) => /usr/local/lib/OpenMesh/libOpenMeshCore.so
  ```
- Nếu mọi người chạy 2 dòng trên mà không ra thì chuyển file "OpenMesh.conf" vào folder /etc/ld.so.conf.d bằng dòng này: `sudo mv /home/user/Downloads/OpenMesh.conf -t /etc/ld.so.conf.d`
+ Nếu mọi người chạy 2 dòng trên mà không ra thì chuyển file "OpenMesh.conf" vào folder /etc/ld.so.conf.d bằng dòng này: `sudo mv /home/user/Downloads/OpenMesh.conf -t /etc/ld.so.conf.d` sau 
  
 ### Installing Freeglut
 
@@ -42,7 +42,7 @@ Những thứ cần tải:
   Debian/Ubuntu) and xkbcommon (libxkbcommon-dev /libxkbcommon-devel)
 - Run 'cmake .' (or 'cmake . -DFREEGLUT_WAYLAND=ON' for Wayland) in the
   freeglut directory to generate the makefile.
-- Run 'make' to build, and 'make install' to install freeglut.
+- Run 'make' to build, and 'sudo make install' to install freeglut.
 - If you wish to change any build options run 'ccmake .'
 
 ### Build code cho bài báo
