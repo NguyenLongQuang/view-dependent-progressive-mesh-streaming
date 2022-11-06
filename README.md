@@ -20,7 +20,7 @@ Những thứ cần tải:
 	libOpenMeshCore.so.2.0 (libc6,x86-64) => /usr/local/lib/OpenMesh/libOpenMeshCore.so.2.0
 	libOpenMeshCore.so (libc6,x86-64) => /usr/local/lib/OpenMesh/libOpenMeshCore.so
  ```
- Nếu mọi người chạy 2 dòng trên mà không ra thì chuyển file "OpenMesh.conf" vào folder /etc/ld.so.conf.d bằng dòng này: `sudo mv /home/user/Downloads/OpenMesh.conf -t /etc/ld.so.conf.d` sau 
+ Nếu mọi người chạy 2 dòng trên mà không ra thì chuyển file "OpenMesh.conf" vào folder /etc/ld.so.conf.d bằng dòng này: `sudo mv /home/user/Downloads/OpenMesh.conf -t /etc/ld.so.conf.d` sau đó chạy lại 2 dòng trên là được 
  
 ### Installing Freeglut
 
